@@ -1,0 +1,21 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "${query_name}.warning",
+  "expectations": [],
+  "meta": {
+    "citations": [
+      {
+        "batch_kwargs": {
+          "data_asset_name": "${query_name}",
+          "datasource": "spark-dataset-selfmanaged",
+          "query": "select * from mydb.mytable"
+        },
+        "batch_markers": null,
+        "batch_parameters": null,
+        "citation_date": "20200902T170411.446178Z",
+        "comment": "New suite added via CLI"
+      }
+    ],
+    "great_expectations_version": "0.12.0"
+  }
+}
